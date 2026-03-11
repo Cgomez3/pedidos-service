@@ -1,6 +1,6 @@
 package com.prueba.pedidos.pedidos_service.aplicacion.service.parser;
-import com.prueba.pedidos.pedidos_service.aplication.model.EstadoPedido;
-import com.prueba.pedidos.pedidos_service.aplication.model.Pedido;
+import com.prueba.pedidos.pedidos_service.domain.model.EstadoPedido;
+import com.prueba.pedidos.pedidos_service.domain.model.Pedido;
 import com.prueba.pedidos.pedidos_service.shared.error.ErrorCode;
 import com.prueba.pedidos.pedidos_service.shared.exception.BusinessException;
 import org.apache.commons.csv.*;

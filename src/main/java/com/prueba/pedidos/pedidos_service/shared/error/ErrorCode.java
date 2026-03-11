@@ -1,6 +1,6 @@
 package com.prueba.pedidos.pedidos_service.shared.error;
 
-import com.prueba.pedidos.pedidos_service.aplication.error.TipoErrorCarga;
+import com.prueba.pedidos.pedidos_service.domain.error.TipoErrorCarga;
 
 public enum ErrorCode {
 

@@ -1,6 +1,6 @@
 package com.prueba.pedidos.pedidos_service.infraestructure.adapter.in.rest.controller;
 
-import com.prueba.pedidos.pedidos_service.aplication.port.in.CargarPedidosUseCase;
+import com.prueba.pedidos.pedidos_service.domain.port.in.CargarPedidosUseCase;
 import com.prueba.pedidos.pedidos_service.aplicacion.dto.ResumenCargaResponse;
 import com.prueba.pedidos.pedidos_service.infraestructure.security.JwtGenerator;
 import io.swagger.v3.oas.annotations.Operation;

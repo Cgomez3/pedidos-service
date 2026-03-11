@@ -1,4 +1,4 @@
-package com.prueba.pedidos.pedidos_service.aplication;
+package com.prueba.pedidos.pedidos_service.domain;
 import static org.mockito.Mockito.*;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,12 +12,12 @@ import com.prueba.pedidos.pedidos_service.aplicacion.service.CargarPedidosServic
 import com.prueba.pedidos.pedidos_service.aplicacion.service.HashService;
 import com.prueba.pedidos.pedidos_service.aplicacion.service.parser.CsvPedidoParser;
 import com.prueba.pedidos.pedidos_service.aplicacion.service.referencia.DatosReferenciaService;
-import com.prueba.pedidos.pedidos_service.aplication.model.EstadoPedido;
-import com.prueba.pedidos.pedidos_service.aplication.model.Pedido;
-import com.prueba.pedidos.pedidos_service.aplication.model.Zona;
-import com.prueba.pedidos.pedidos_service.aplication.port.out.IdempotenciaRepositoryPort;
-import com.prueba.pedidos.pedidos_service.aplication.port.out.PedidoRepositoryPort;
-import com.prueba.pedidos.pedidos_service.aplication.service.PedidoValidationService;
+import com.prueba.pedidos.pedidos_service.domain.model.EstadoPedido;
+import com.prueba.pedidos.pedidos_service.domain.model.Pedido;
+import com.prueba.pedidos.pedidos_service.domain.model.Zona;
+import com.prueba.pedidos.pedidos_service.domain.port.out.IdempotenciaRepositoryPort;
+import com.prueba.pedidos.pedidos_service.domain.port.out.PedidoRepositoryPort;
+import com.prueba.pedidos.pedidos_service.domain.service.PedidoValidationService;
 import com.prueba.pedidos.pedidos_service.infraestructure.config.PedidoBatchProperties;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

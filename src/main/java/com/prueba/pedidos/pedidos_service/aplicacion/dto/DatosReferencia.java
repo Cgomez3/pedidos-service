@@ -1,6 +1,6 @@
 package com.prueba.pedidos.pedidos_service.aplicacion.dto;
 
-import com.prueba.pedidos.pedidos_service.aplication.model.Zona;
+import com.prueba.pedidos.pedidos_service.domain.model.Zona;
 
 import java.util.Map;
 import java.util.Set;

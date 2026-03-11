@@ -1,4 +1,4 @@
-package com.prueba.pedidos.pedidos_service.aplication.error;
+package com.prueba.pedidos.pedidos_service.domain.error;
 
 public enum TipoErrorCarga {
     CLIENTE_NO_ENCONTRADO,

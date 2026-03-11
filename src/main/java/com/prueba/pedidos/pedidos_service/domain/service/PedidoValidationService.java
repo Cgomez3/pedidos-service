@@ -1,7 +1,7 @@
-package com.prueba.pedidos.pedidos_service.aplication.service;
+package com.prueba.pedidos.pedidos_service.domain.service;
 
 
-import com.prueba.pedidos.pedidos_service.aplication.model.Pedido;
+import com.prueba.pedidos.pedidos_service.domain.model.Pedido;
 import com.prueba.pedidos.pedidos_service.shared.error.ErrorCode;
 import com.prueba.pedidos.pedidos_service.shared.exception.BusinessException;
 

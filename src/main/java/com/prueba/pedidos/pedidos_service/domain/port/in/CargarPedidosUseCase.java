@@ -1,4 +1,4 @@
-package com.prueba.pedidos.pedidos_service.aplication.port.in;
+package com.prueba.pedidos.pedidos_service.domain.port.in;
 
 
 import com.prueba.pedidos.pedidos_service.aplicacion.dto.ResumenCargaResponse;

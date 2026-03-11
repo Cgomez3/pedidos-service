@@ -1,11 +1,11 @@
 package com.prueba.pedidos.pedidos_service.aplicacion.service.referencia;
 
 import com.prueba.pedidos.pedidos_service.aplicacion.dto.DatosReferencia;
-import com.prueba.pedidos.pedidos_service.aplication.model.Pedido;
-import com.prueba.pedidos.pedidos_service.aplication.model.Zona;
-import com.prueba.pedidos.pedidos_service.aplication.port.out.ClienteRepositoryPort;
-import com.prueba.pedidos.pedidos_service.aplication.port.out.PedidoRepositoryPort;
-import com.prueba.pedidos.pedidos_service.aplication.port.out.ZonaRepositoryPort;
+import com.prueba.pedidos.pedidos_service.domain.model.Pedido;
+import com.prueba.pedidos.pedidos_service.domain.model.Zona;
+import com.prueba.pedidos.pedidos_service.domain.port.out.ClienteRepositoryPort;
+import com.prueba.pedidos.pedidos_service.domain.port.out.PedidoRepositoryPort;
+import com.prueba.pedidos.pedidos_service.domain.port.out.ZonaRepositoryPort;
 
 import java.util.List;
 import java.util.Map;
