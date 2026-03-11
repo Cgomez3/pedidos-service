@@ -18,7 +18,7 @@ Se implementa siguiendo **arquitectura hexagonal**, principios SOLID y buenas pr
 ## 2. Configuración del Proyecto
 2.1. Clonar el Repositorio
 ```bash
-git clone https://github.com/TU_USUARIO/pedidos-service.git
+git clone https://github.com/Cgomez3/pedidos-service.git
 cd pedidos-service
 ```
 2.2. Configurar la base de datos en src/main/resources/application.yaml
