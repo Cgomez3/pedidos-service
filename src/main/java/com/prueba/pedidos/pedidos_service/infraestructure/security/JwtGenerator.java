@@ -5,16 +5,18 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import javax.crypto.SecretKey;
 import java.util.Date;
 
+@Component
 public class JwtGenerator {
 
     @Value("${spring.security.jwt.secret}")
-    private static   String SECRET;
+    private  String SECRET;
 
-    public static String generarToken(){
+    public String generarToken(){
 
         SecretKey key = Keys.hmacShaKeyFor(SECRET.getBytes());
 

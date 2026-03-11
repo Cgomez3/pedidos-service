@@ -56,6 +56,14 @@ Endpoints disponibles:
 ```Url
 http://localhost:8081/pedidos/cargar
 ```
+- Para Obtener el token
+```Url
+  http://localhost:8081/pedidos/token
+```
+- Para verificar el Catalogo SWAGGER
+```Url
+  http://localhost:8081/swagger-ui/index.html
+```
 ## 4. Estrategia de Batch
 
 El microservicio implementa procesamiento batch de pedidos:

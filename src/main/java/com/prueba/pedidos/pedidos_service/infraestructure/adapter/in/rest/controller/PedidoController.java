@@ -23,6 +23,8 @@ public class PedidoController {
     private final CargarPedidosUseCase useCase;
     private static final Logger log = LoggerFactory.getLogger(PedidoController.class);
 
+    private final JwtGenerator jwtGenerator;
+
     @PostMapping(value = "/cargar",
             consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
     @Operation(
@@ -60,6 +62,7 @@ public class PedidoController {
 
     @GetMapping("/token")
     public ResponseEntity<String> generarToken() {
-        return ResponseEntity.ok(JwtGenerator.generarToken());
+        return
+                ResponseEntity.ok(jwtGenerator.generarToken());
     }
 }
