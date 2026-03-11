@@ -1,0 +1,39 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: pedidos-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pedido_bd
+    username: postgres
+    password: cgomez84
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 1000
+        order_inserts: true
+        order_updates: true
+
+    sql:
+      init:
+        mode: always
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    validate-on-migrate: false
+  security:
+    jwt:
+      secret: ASDFSSDFFRRTGFGHTYYHHGGGHHGHHHHUUUYIYUIYUIYUIUYYIYUIYPOOOKKADSJABNBCNBASDHAJDJAJKAKSDKASD
+
+pedidos:
+  batch-size: 1000
+

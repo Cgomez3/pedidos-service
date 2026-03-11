@@ -1,0 +1,72 @@
+# =====================
+# Maven / Build
+# =====================
+/target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# =====================
+# Logs
+# =====================
+*.log
+hs_err_pid*.log
+
+# =====================
+# IDEs
+# =====================
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse / STS
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# =====================
+# OS-specific
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Generated / Temporary Files
+# =====================
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.h2.db
+
+# =====================
+# Spring Boot / Configuration
+# =====================
+# Ignora properties con credenciales (opcional si tienes secrets)
+# src/main/resources/application-*.properties
+
+# =====================
+# Flyway / Migration history (opcional)
+# =====================
+# flyway_schema_history.lock  # si quieres ignorar bloqueos temporales
